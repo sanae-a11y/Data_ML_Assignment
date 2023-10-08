@@ -53,13 +53,7 @@ else:
     
     sample = st.selectbox(
                 "Resume samples for inference",
-                ("Business Intelligence", 
-                 "Dot Net Developer", 
-                 "Help Desk And Support",
-                 "Java Developer",
-                 "Project Manager",
-                 "Quality Assurance",
-                 "SQL Developer"),
+                tuple(LABELS_MAP.values()),
                 index=None,
                 placeholder="Select a resume sample",
             )
