@@ -18,6 +18,5 @@ class BaseModel(EstimatorInterface):
         model = load(model_path)
         self.model = model
 
-    @staticmethod
-    def save(model: object, path: str = 'model.joblib'):
-        dump(model, path)
+    def save(self, path: str = 'model.joblib'):
+        dump(self.model, path)
