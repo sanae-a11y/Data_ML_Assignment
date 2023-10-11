@@ -170,6 +170,6 @@ For unit testing , you'll need the following installation:
 - `pip install pytest-mock`
 - `pip install requests-mock`
 
-To check if everything is set up correctly, and will report the test results :
+To check if everything is set up correctly, and report the test results run this command:
 
-- pytest tests/test_dashboard.py
+- `pytest tests/test_dashboard.py`
