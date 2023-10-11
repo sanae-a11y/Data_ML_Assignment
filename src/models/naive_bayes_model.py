@@ -9,7 +9,7 @@ class NaiveBayesModel(BaseModel):
     def __init__(self, **kwargs):
         super().__init__(
             model=Pipeline([
-                    ('countv', CountVectorizer()),
-                    ('nbc', MultinomialNB(**kwargs))
-                ])
+                ('countv', CountVectorizer()),
+                ('nbc', MultinomialNB(**kwargs))
+            ])
         )
