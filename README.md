@@ -98,7 +98,8 @@ Your EDA must be added to the first section of the streamlit dashboard.
 P.S: You can add data processing in this section if needed.
 
 ![](./static/eda.png)
-
+![](./static/eda0.png)
+![](./static/eda0.png)
 Hints: Please refer to the [documentation](https://docs.streamlit.io/library/api-reference) to learn more on how to use Streamlit `widgets` in order to display: `pandas dataframes`, `charts`, `tables`, etc, as well as interactive components: `text inputs`, `buttons`, `sliders`, etc.
 
 ### 3 - Training
@@ -126,6 +127,7 @@ Once done, you will be able to see the F1 score as well as the confusion matrix.
 P.S: If you chose the `save option` at the beginning of the training, you will be able to see the serialized pipeline under `models/pipeline_name`
 
 ![](./static/training_result.png)
+![](./static/training0.png)
 
 Hints:
 
@@ -144,6 +146,8 @@ In the third section of the dashboard, you can `choose` different `resumes` and 
 The example shows an inference for a Java Developer resume:
 
 ![](./static/inference_done.png)
+
+![](./static/inference0.png)
 
 In this section, you are asked to:
 
