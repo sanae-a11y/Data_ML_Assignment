@@ -99,7 +99,7 @@ P.S: You can add data processing in this section if needed.
 
 ![](./static/eda.png)
 ![](./static/eda0.png)
-![](./static/eda0.png)
+![](./static/eda00.png)
 Hints: Please refer to the [documentation](https://docs.streamlit.io/library/api-reference) to learn more on how to use Streamlit `widgets` in order to display: `pandas dataframes`, `charts`, `tables`, etc, as well as interactive components: `text inputs`, `buttons`, `sliders`, etc.
 
 ### 3 - Training
