@@ -156,7 +156,7 @@ Install `fastapi-cors` :
 
 FastAPI-CORS is a library that simplifies handling Cross-Origin Resource Sharing (CORS) in your FastAPI applications. To install it, use the following command:
 
-- pip install fastapi-cors
+- `pip install fastapi-cors`
 
 ### 5 - Unit testing
 
@@ -166,9 +166,9 @@ Hints: Use `pytest` for your unit tests as well as `mocks` for external services
 
 For unit testing , you'll need the following installation:
 
-- pip install pytest
-- pip install pytest-mock
-- pip install requests-mock
+- `pip install pytest`
+- `pip install pytest-mock`
+- `pip install requests-mock`
 
 To check if everything is set up correctly, and will report the test results :
 
