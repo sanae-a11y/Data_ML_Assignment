@@ -74,11 +74,11 @@ def pipeline_training():
                 accuracy, f1 = tp.get_model_performance()
                 col1, col2 = st.columns(2)
                 if serialize:
-                    st.success(f"pipeline saved !")
+                    st.success(f"Pipeline saved !")
                 else:
                     st.warning(
                         "Don't forget to save the pipeline if needed. You can repeat the training anytime 🙂.")
-
+                st.write("Model Type: ", model_type)
                 col1.metric(label="Accuracy score",
                             value=str(round(accuracy, 4)))
                 col2.metric(label="F1 score", value=str(round(f1, 4)))
